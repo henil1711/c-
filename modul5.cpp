@@ -4,6 +4,6 @@ int main()
 {
     cout << "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\n";
     cout << "| Welcome to Tops Technologies |\n";
-    cout << "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n";
+    cout << "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _  \n";
     return 0;
 }
