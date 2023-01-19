@@ -24,7 +24,7 @@ void swap(Swap &s1, Swap &s2)
     temp = s1.num;
     s1.num = s2.num;
     s2.num = temp;
-    cout << "\nAfter Swapping: " << s1.num << " " << s2.num;
+    cout << "\nAfter Swapping: " << s1.num << "  " << s2.num;
 }
 
 int main()
