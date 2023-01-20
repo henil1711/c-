@@ -3,7 +3,7 @@
 #include <stdio.h>
 using namespace std;
 
-class person
+class person // this is first class
 {
 public:
     string employname;
@@ -12,12 +12,12 @@ public:
     {
         cout << "enter mamber details" << endl;
         cout << "enter mamber Name" << endl;
-        getline(cin, employname);
+        getline(cin, employname); // using string fuction fo taking full name
         cout << "enter mamber Age" << endl;
         cin >> age;
     }
 };
-class student
+class student // second class
 {
 public:
     float percentge;
@@ -27,7 +27,7 @@ public:
         cin >> percentge;
     }
 };
-class teacher : public student, public person
+class teacher : public student, public person // Multipal inharitance using hear
 {
 public:
     int salary;
@@ -59,3 +59,4 @@ int main()
 
     return 0;
 }
+// ahiya aa program puro thai chhe ahiya badha na avva badal dhanyavad
