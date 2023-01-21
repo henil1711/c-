@@ -59,4 +59,4 @@ int main()
 
     return 0;
 }
-// ahiya aa program puro thai chhe ahiya badha na avva badal dhanyavad
+// ahiya aa program puro thai chhe ahiya badha ne avva badal dhanyavad
